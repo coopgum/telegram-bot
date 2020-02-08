@@ -2,14 +2,14 @@ const Telegraf = require('telegraf')
 const { Markup } = Telegraf
 
 const app = new Telegraf('828682387:AAFwmcMYUNJI4ATP6hzvGBRYUSI-mih516o')
-const PAYMENT_TOKEN = 'sk_live_DWseijZsw6zUHc3wwv74Ypk200xXCfqx0Q'
+const PAYMENT_TOKEN = 'pk_live_ZUFzonlOhu4AzqOh3vD1wzP100V74tuki8'
 
 const products = [
     {
         name: 'Big Bag Forex VIP',
         price: 19.99,
         description: 'Gain access to the Big Bag Forex VIP server with more signals!',
-        photoUrl: 'http://vignette2.wikia.nocookie.net/fallout/images/e/e6/Fallout4_Nuka_Cola_Quantum.png'
+        photoUrl: 'https://i.imgur.com/hOeTbMA.jpg'
     },
     
 ]
